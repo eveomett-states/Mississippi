@@ -80,7 +80,3 @@ Below is a brief description of each of the listed variables in the attribute ta
 - `USS20D`: Number of votes for 2020 Democratic senate candidate
 - `USS20R`: Number of votes for 2020 Republican senate candidate
 - `USS20O`: Number of votes for 2020 other party's senate candidate
-
-# **Projection**
-
-The shapefile uses a UTM NAD83 projection (EPSG: 4269).
