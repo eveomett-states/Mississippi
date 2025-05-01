@@ -27,6 +27,8 @@ The following obtained from [Redistricting Data Hub](https://redistrictingdatahu
 
 [2016 election data](https://redistrictingdatahub.org/dataset/vest-2016-mississippi-precinct-and-election-results/): VEST 2016 precinct and election results
 
+[County data](https://redistrictingdatahub.org/dataset/mississippi-county-pl-94171-2020/): from 2020 Census Redistricting Data (P.L. 94-171) Shapefiles
+
 # **Processing**
 
 Demographic data were aggregated from the census block level and precincts were assigned to districts using [MGGG's proration software](https://github.com/mggg/maup). Election data were also prorated onto VTDs from the original precinct shapefile using the `maup` package.
