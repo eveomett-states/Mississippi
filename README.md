@@ -3,9 +3,9 @@ This data was generated using data from the Redistricting Data Hub.  Any use of 
 
 Use of this project is further governed by the terms of the [Creative Commons Attribution Noncommercial 4.0 International](https://creativecommons.org/licenses/by-nc/4.0/legalcode.en)
 
-# Mississippi Election Shapefile
+# Mississippi Json and  Shapefile
 
-This shapefile was processed by Professor Ellen Veomett and her student Arbie Hsu.
+This shapefile was processed by Professor Ellen Veomett and her student Arbie Hsu using the corresponding jupyter notebook.  As part of the cleaning process, precincts were nested within counties and small rook adjacencies (under 30.5 m) were changed to queen adjacencies. 
 
 # **Sources**
 
@@ -19,15 +19,15 @@ The following obtained from [Redistricting Data Hub](https://redistrictingdatahu
 
 [State Senate District data](https://redistrictingdatahub.org/dataset/2022-mississippi-senate-districts-approved-plan/): 2022 State Senate Districts Interim Plan from
 
-[2020 election data](https://redistrictingdatahub.org/dataset/vest-2020-mississippi-precinct-and-election-results/): VEST 2020 precinct and election results
-
-[2019 election data](https://redistrictingdatahub.org/dataset/vest-2019-mississippi-precinct-and-election-results/): VEST 2019 precinct and election results
-
 [2018 election data](https://redistrictingdatahub.org/dataset/vest-2018-mississippi-precinct-and-election-results/): VEST 2018 precinct and election results
 
-[2016 election data](https://redistrictingdatahub.org/dataset/vest-2016-mississippi-precinct-and-election-results/): VEST 2016 precinct and election results
-
 [County data](https://redistrictingdatahub.org/dataset/mississippi-county-pl-94171-2020/): from 2020 Census Redistricting Data (P.L. 94-171) Shapefiles
+
+And the following was obtained on May 2, 2025:
+
+[2023 election data](https://redistrictingdatahub.org/dataset/mississippi-2023-general-election-precinct-level-results-and-boundaries/): Mississippi 2023 General Election Precinct-Level Results and Boundaries
+
+We would have liked to include more election data, but were unable to clean the following shapefiles: [https://redistrictingdatahub.org/dataset/mississippi-2022-general-election-precinct-level-results-and-boundaries/](https://redistrictingdatahub.org/dataset/mississippi-2022-general-election-precinct-level-results-and-boundaries/), [2020 election data](https://redistrictingdatahub.org/dataset/vest-2020-mississippi-precinct-and-election-results/), [2019 election data](https://redistrictingdatahub.org/dataset/vest-2019-mississippi-precinct-and-election-results/), [2016 election data](https://redistrictingdatahub.org/dataset/vest-2016-mississippi-precinct-and-election-results/)
 
 # **Processing**
 
