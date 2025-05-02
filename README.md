@@ -21,11 +21,13 @@ The following obtained from [Redistricting Data Hub](https://redistrictingdatahu
 
 [2020 election data](https://redistrictingdatahub.org/dataset/vest-2020-mississippi-precinct-and-election-results/): VEST 2020 precinct and election results
 
-[2018 election data](https://redistrictingdatahub.org/dataset/vest-2019-mississippi-precinct-and-election-results/): VEST 2018 precinct and election results
+[2019 election data](https://redistrictingdatahub.org/dataset/vest-2019-mississippi-precinct-and-election-results/): VEST 2019 precinct and election results
 
 [2018 election data](https://redistrictingdatahub.org/dataset/vest-2018-mississippi-precinct-and-election-results/): VEST 2018 precinct and election results
 
 [2016 election data](https://redistrictingdatahub.org/dataset/vest-2016-mississippi-precinct-and-election-results/): VEST 2016 precinct and election results
+
+[County data](https://redistrictingdatahub.org/dataset/mississippi-county-pl-94171-2020/): from 2020 Census Redistricting Data (P.L. 94-171) Shapefiles
 
 # **Processing**
 
