@@ -27,21 +27,21 @@ And the following was obtained on May 2, 2025:
 
 [2023 election data](https://redistrictingdatahub.org/dataset/mississippi-2023-general-election-precinct-level-results-and-boundaries/): Mississippi 2023 General Election Precinct-Level Results and Boundaries
 
-We would have liked to include more election data, but were unable to clean the following shapefiles: [https://redistrictingdatahub.org/dataset/mississippi-2022-general-election-precinct-level-results-and-boundaries/](https://redistrictingdatahub.org/dataset/mississippi-2022-general-election-precinct-level-results-and-boundaries/), [2020 election data](https://redistrictingdatahub.org/dataset/vest-2020-mississippi-precinct-and-election-results/), [2019 election data](https://redistrictingdatahub.org/dataset/vest-2019-mississippi-precinct-and-election-results/), [2016 election data](https://redistrictingdatahub.org/dataset/vest-2016-mississippi-precinct-and-election-results/)
+We would have liked to include more election data, but were unable to clean the following shapefiles: [2022 election data](https://redistrictingdatahub.org/dataset/mississippi-2022-general-election-precinct-level-results-and-boundaries/), [2020 election data](https://redistrictingdatahub.org/dataset/vest-2020-mississippi-precinct-and-election-results/), [2019 election data](https://redistrictingdatahub.org/dataset/vest-2019-mississippi-precinct-and-election-results/), [2016 election data](https://redistrictingdatahub.org/dataset/vest-2016-mississippi-precinct-and-election-results/).  They all resulted in topology errors.
 
 # **Processing**
 
-Demographic data were aggregated from the census block level and precincts were assigned to districts using [MGGG's proration software](https://github.com/mggg/maup). Election data were also prorated onto VTDs from the original precinct shapefile using the `maup` package.
+Data were cleaned and aggregated in the corresponding jupyter notebook using MGGG’s python library [maup](https://github.com/mggg/maup).
 
 # **Metadata**
 
 Below is a brief description of each of the listed variables in the attribute table of the VTD shapefile:
 
-- `STATEFP20`: State FIPS code of 2020
-- `COUNTYFP20`: County FIPS code of 2020
-- `GEOID20`: VTD FIPS code of 2020
-- `NAME20`: Voting tabulation district name of 2020
-- `VTDST20`: Voting tabulation district FIPS code of 2020
+- `STATEFP18`: State FIPS code of 2018
+- `COUNTYFP18`: County FIPS code of 2018
+- `GEOID18`: VTD FIPS code of 2018
+- `NAME18`: Voting tabulation district name of 2018
+- `VTDST18`: Voting tabulation district FIPS code of 2018
 - `CD`: Congressional district ID in 2022 enacted congressional map
 - `SEND`: State Senate district for 2022 State Senate Adopted Plan
 - `HDIST`: State House district for 2022 State House of Representatives Districts Plan
@@ -70,15 +70,24 @@ Below is a brief description of each of the listed variables in the attribute ta
 - `NHPIVAP`: Native Hawaiian and Pacific Islander, non-hispanic, voting age population in 2020 Census
 - `OTHERVAP`: Other race, non-hispanic, voting age population in 2020 Census
 - `2MOREVAP`: Two or more races, non-hispanic, voting age population in 2020 Census
-- `PRE16D`: Number of votes for 2016 Democratic President
-- `PRE16O`: Number of votes for 2016 other party's President
-- `PRE16R`: Number of votes for 2016 Republican President
-- `PRE20D`: Number of votes for 2020 Democratic President
-- `PRE20R`: Number of votes for 2020 Republican President
-- `PRE20O`: Number of votes for 2020 other party's President
-- `USS16D`: Number of votes for 2016 Democratic senate candidate
-- `USS16R`: Number of votes for 2016 Republican senate candidate
-- `USS16O`: Number of votes for 2016 other party's senate candidate
-- `USS20D`: Number of votes for 2020 Democratic senate candidate
-- `USS20R`: Number of votes for 2020 Republican senate candidate
-- `USS20O`: Number of votes for 2020 other party's senate candidate
+- `AGR23D`: Number of votes for 2023 Democratic Commissioner of Agriculture & Commerce candidate
+- `AGR23R`: Number of votes for 2023 Republican Commissioner of Agriculture & Commerce candidate
+- `ATG23D`: Number of votes for 2023 Democratic Attorney General candidate
+- `ATG23R`: Number of votes for 2023 Republican Attorney General candidate
+- `AUD23D`: Number of votes for 2023 Democratic State Auditor candidate
+- `AUD23R`: Number of votes for 2023 Republican State Auditor candidate
+- `GOV23D`: Number of votes for 2023 Democratic Gubernatorial candidate
+- `GOV23R`: Number of votes for 2023 Republican Gubernatorial candidate
+- `GOV23O`: Number of votes for 2023 other party's Gubernatorial candidate
+- `INS23D`: Number of votes for 2023 Democratic Commissioner of Insurance candidate
+- `INS23R`: Number of votes for 2023 Republican Commissioner of Insurance candidate
+- `LTG23D`: Number of votes for 2023 Democratic Lieutenant Governor candidate
+- `LTG23R`: Number of votes for 2023 Republican Lieutenant Governor candidate
+- `SOS23D`: Number of votes for 2023 Democratic Secretary of State candidate
+- `SOS23R`: Number of votes for 2023 Republican Secretary of State candidate
+- `TRE23D`: Number of votes for 2023 Democratic State Treasurer candidate
+- `TRE23R`: Number of votes for 2023 Republican State Treasurer candidate
+- `USS18D`: Number of votes for 2018 Democratic senate candidate
+- `USS18R`: Number of votes for 2018 Republican senate candidate
+- `USS18O`: Number of votes for 2018 other party's senate candidate
+
